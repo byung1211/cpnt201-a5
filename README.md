@@ -5,14 +5,14 @@
   - **Github Repo:** https://github.com/byung1211/cpnt201-a5
   - **Github Pages Site:** https://byung1211.github.io/cpnt201-a5/index.html
   
-### CSS Framworks
+### CSS Frameworks
 
 - **Bootstrap** from https://getbootstrap.com/
 - **SASS** from https://sass-lang.com/
 
 ### Code Review
 	
-- Cool... Everything works well with technical documentations for both frameworks.
+- Cool... Everything works well with technical documentation for both frameworks.
 
 ### Attributions
 
@@ -22,5 +22,5 @@
 
 - The project setup is in the package.json file.
 - The custom $theme-colors is in the custom.scss file in the recommended folder by its website.
-- index.html shows how different between the custom $theme-colors and the original.
+- index.html shows how differences between the custom $theme-colors and the original.
 - blog.html shows that images work responsively.
