@@ -1,0 +1,53 @@
+// Custom.scss
+
+// Google font
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+// Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 1st way to complete the requirement.
+// $primary: #006064;
+// $secondary: #311B92;
+// $success: #BF360C;
+// $info: #827717;
+// $warning: #FF6F00;
+// $danger: #B71C1C;
+// $light: #E0E0E0;
+// $dark: #212121;
+
+// 2nd way to complete the requirement.
+$theme-colors: (
+  "primary":    #006064,
+  "secondary":  #311B92,
+  "success":    #BF360C,
+  "info":       #827717,
+  "warning":    #FF6F00,
+  "danger":     #B71C1C,
+  "light":      #E0E0E0,
+  "dark":       #212121
+) !default;
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// 4. Include any optional Bootstrap components as you like
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+
+
+// 5. Add additional custom code here
+$header-font-family:'IBM Plex Sans', sans-serif;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font-family;
+}
