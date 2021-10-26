@@ -1,14 +1,17 @@
-/**
-*
-*
-*
-*
-*
-*   This comment is for making a conflict if possible. 
-*
-*
-*
-*
-*
-*
-**.
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap");
+body {
+  background-color: #cdcdcd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #d73038;
+  font-weight: 600;
+}
+
+p {
+  font: 100% Helvetica, sans-serif;
+  color: #000000;
+}
+
+/*# sourceMappingURL=main.css.map */

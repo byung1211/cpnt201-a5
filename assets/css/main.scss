@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+
+$font-stack: Helvetica, sans-serif;
+$header-stack: 'IBM Plex Sans', sans-serif;
+
+$main-background-color: #cdcdcd;
+$paragraph-color: #000000;
+
+
+body {
+  background-color: $main-background-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-stack;
+  color:#d73038;
+  font-weight: 600;
+}
+
+p {
+  font: 100% $font-stack;
+  color: $paragraph-color;
+}
+

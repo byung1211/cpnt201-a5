@@ -1,0 +1,26 @@
+{
+  "name": "cpnt201-a5",
+  "version": "1.0.0",
+  "description": "CPNT201 Assignment 5",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass assets/css/main.scss assets/css/main.css",
+    "build-tailwind": "npx tailwindcss -o assets/css/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byung1211/cpnt201-a5.git"
+  },
+  "keywords": [
+    "CPNT201"
+  ],
+  "author": "Byung Uk An",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/byung1211/cpnt201-a5/issues"
+  },
+  "homepage": "https://github.com/byung1211/cpnt201-a5#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

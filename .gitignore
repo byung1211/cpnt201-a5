@@ -1,3 +1,7 @@
+# Project
+node_modules
+.vscode
+
 # Mac OS
 .DS_Store
 
