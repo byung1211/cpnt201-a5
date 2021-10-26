@@ -17,3 +17,10 @@
 ### Attributions
 
 - The content that I customized for this assignment are from https://github.com/sait-wbdv/scavengit-game.
+
+### Comments
+
+- The project setup is in the package.json file.
+- The custom $theme-colors is in the custom.scss file in the recommended folder by its website.
+- index.html shows how different between the custom $theme-colors and the original.
+- blog.html shows that images work responsively.
